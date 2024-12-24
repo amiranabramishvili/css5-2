@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #07081A;
+}
+
+.MainBarDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 200px 0px 200px;
+    gap: 667px;
+    margin-bottom: 64px;
+    border-bottom: 1px solid #261C51;
+}
+
+.LogoDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.TextClass {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.MenuDiv {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+}
+
+.MenuDiv p {
+    color: #8CE900;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.MainDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    margin-left: 200px;
+    margin-bottom: 64px;
+}
+
+.MainDiv div>h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+}
+
+.projectClass {
+    display: flex;
+    width: 1140px;
+    padding: 40px 72px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #242642;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+
+.ProjectDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ProjectDiv span {
+    color: #8CE900;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.ProjectDiv p {
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.FooterDiv {
+    display: flex;
+    width: 1140px;
+    align-items: center;
+    gap: 254px;
+    height: 200px;
+    margin-left: 200px;
+    margin-bottom: 64px;
+}
+
+.FirstDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 234px;
+}
+
+.FirstDiv>p {
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.ImgDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.ImgDiv span {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.CenterDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.CenterDiv :first-child {
+    color: #8CE900;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.CenterDiv span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.LastDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.LastDiv :first-child {
+    color: #8CE900;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.LastDiv span {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
